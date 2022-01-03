@@ -1,11 +1,15 @@
 * {
     box-sizing: border-box; 
   }
+  html {
+    scroll-behavior: smooth; 
+  }
   body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
+    font-family: 'Dancing Script', cursive;
   }
   main {
     display: flex;
@@ -23,11 +27,30 @@
     order: -1;
   }
   header, footer {
-    background: yellowgreen;
-    height: 20vh;
+    background: #cfc3ca;
+    height: 15vh;
   }
   header, footer, article, section, aside {
     padding: 1em;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    color: currentcolor;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    background-color: #d9419a54;
+    box-shadow: 10px 7px 14px 0px;
   }
   @media screen and (min-width: 576px) {
     main {
