@@ -37,7 +37,22 @@
 <li>Website development with HTML, CSS and JavaScript in IT-academy</li>
 <li>basics of web technologies in IT-academy</li>
 <li>JavaScript https://learn.javascript.ru/</li>
+<li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
 </ul>
 
+##Skills and Proficiency:
+* VS Code
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+
+
+
 </section>
+
 </main>
+
+<footer>
+##Language:
+<p>*English level - A2*</p>
+</footer>
