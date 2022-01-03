@@ -12,5 +12,32 @@
 ##About myself:
 **I study at a rolling school for a front-end developer**
 
+##Code example:
+```var lazy_parent_id='gallery';
+
+    function lazy_load_proc() {
+        var doc = document.documentElement;
+        var body = document.body;
+
+        if (typeof(window.innerWidth) == 'number') {
+            my_width = window.innerWidth;
+            my_height = window.innerHeight;
+        }
+        else if (doc && (doc.clientWidth || doc.clientHeight)) {
+            my_width = doc.clientWidth;
+            my_height = doc.clientHeight;
+        }
+        else if (body && (body.clientWidth || body.clientHeight)) {
+            my_width = body.clientWidth;
+            my_height = body.clientHeight;
+        }
+```
+##Education and courses:
+<ul>
+<li>Website development with HTML, CSS and JavaScript in IT-academy</li>
+<li>basics of web technologies in IT-academy</li>
+<li>JavaScript https://learn.javascript.ru/</li>
+</ul>
+
 </section>
 </main>
