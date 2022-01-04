@@ -20,21 +20,26 @@
           <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
           <li class="nav-item"><a href="#courses" class="nav-link">Courses </a></li>
           <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education </a></li>
           <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
         </ul>
       </nav>
     </header>
   <main>
     <article>
-        <h2>Education and courses</h2>
+      <div id="summary">
+        <h1>Summary</h1>
+        <p>I graduated from AT-Academy courses on "Fundamentals of Web Technologies», as well as on »HTML, CSS and JavaScript» on excellent, high. I am currently taking online courses at Udemy.com. and rs.school.My personal qualities, my dedication to learning and the knowledge I have acquired in the course will help to solve various problems.I really want to further develop my level of knowledge and develop in this direction.</p>
+      </div>
+        <div id="courses">
+          <h2>Education and courses</h2>
         <ul>
             <li>Website development with HTML, CSS and JavaScript in IT-academy</li>
             <li>basics of web technologies in IT-academy</li>
             <li>JavaScript https://learn.javascript.ru/</li>
             <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
             </ul>
-        <h2>Skills and Proficiency:</h2>
+        </div>
+        <h2 id="skills">Skills and Proficiency:</h2>
         <ul>
             <li>VS Code</li>
             <li>HTML5, CSS3</li>
@@ -42,19 +47,49 @@
             <li>Git, GitHub</li>
         </ul>
     </article>
-    <section>
-        <address>
+    <section class="profile">
+      <figure>
+        <figcaption>Anastasiya Laptseva</figcaption>
+        <p class="photo"><img src="img/566712030.jpeg" alt="photo" title="photo" width="200px"></p>
+      </figure>
+        <address id="contacts">
             <h2>Contacts:</h2>
-                  Mail: <a href="mailto:ank_2307@mail.ru">ank_2307@mail.ru</a>.<br>
-                  Phone <a href="tel:+375291277605">+37529-127-76-05</a>.<br>
+            <ul class="contacts">
+              <li>Mail: <a class="nav-link" href="mailto:ank_2307@mail.ru">ank_2307@mail.ru</a></li>
+              <li>Phone <a class="nav-link" href="tel:+375291277605">+37529-127-76-05</a></li>
+              <li>Linkedin: <a class="nav-link" href="https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F-%D0%BB%D0%B0%D0%BF%D1%82%D0%B5%D0%B2%D0%B0-126322219/">Anastasiya Laptseva</a> </li>
+            </ul>
+              
             </address>
     </section>
-    <aside>
-        <h2>Language:</h2>
-        <p>English level - A2</p>
+    <aside class="science">
+      <div id="projects">
+        <h2>Projects:</h2>
+        <a href="http://beloknastroi.by"><img src="img/logo.svg" width="100px"></a>
+      </div>
+      <div id="code">
+        <h2>Code example:</h2>
+        <code>
+          function checkParent (src, dest) {<Br>
+            while (src != null) {<Br>
+              if (src.tagName == dest) return src<Br>
+               src = src.parentElement<Br>
+            }<Br>
+            return null<Br>
+           }
+        </code>
+      </div>
+        <div id="english">
+          <h2>Language:</h2>
+          <p>English level - A2</p>
+        </div>
     </aside>
   </main>
-  <footer>https://github.com/AnastasiaLaptseva/rsschool-cv.git</footer>
+  <footer>
+    <p><a href="https://github.com/AnastasiaLaptseva/rsschool-cv.git" class="nav-link"> Anastasia Laptseva</a></p>
+    <p>2022</p>
+    <p><a href="https://rs.school/js/" class="nav-link2"><img src="img/rs_school_js.svg" alt="rsschool" width="100px"></a></p>
+  </footer>
 
 </body>
 </html>

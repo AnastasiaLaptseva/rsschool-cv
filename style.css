@@ -21,14 +21,19 @@
   }
  main > section, 
   main > aside {
-    background: beige;
+    background-color: #dfdfdf75;;
   }
   main > section {
     order: -1;
   }
   header, footer {
     background: #cfc3ca;
-    height: 15vh;
+  }
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
   }
   header, footer, article, section, aside {
     padding: 1em;
@@ -52,7 +57,33 @@
     background-color: #d9419a54;
     box-shadow: 10px 7px 14px 0px;
   }
-  @media screen and (min-width: 576px) {
+  .nav-link2:hover {
+    box-shadow: 6px -9px 25px 10px;
+  }
+  figcaption{
+    font-weight: bold;
+    line-height: 15px;
+    font-size: 20px;
+    text-align: center;
+  }
+  address{
+    text-align: center;
+
+  }
+  .contacts{
+    list-style: none;
+  }
+  .profile{
+    margin: 0 auto;
+    display: block;
+    background-color: #dfdfdf75;
+  }
+  .science{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 705px) {
     main {
       flex-direction: row;
     }
@@ -60,6 +91,8 @@
     main > aside {
       flex: 0 0 20vw;
     } 
+    
+    
   }
   
 
