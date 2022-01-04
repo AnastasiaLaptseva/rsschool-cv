@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box; 
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+  }
+  main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  main > article {
+    flex: 1;
+  }
+ main > section, 
+  main > aside {
+    background-color: #dfdfdf75;;
+  }
+  main > section {
+    order: -1;
+  }
+  header, footer {
+    background: #cfc3ca;
+  }
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header, footer, article, section, aside {
+    padding: 1em;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    color: currentcolor;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    background-color: #d9419a54;
+    box-shadow: 10px 7px 14px 0px;
+  }
+  .nav-link2:hover {
+    box-shadow: 6px -9px 25px 10px;
+  }
+  figcaption{
+    font-weight: bold;
+    line-height: 15px;
+    font-size: 20px;
+    text-align: center;
+  }
+  address{
+    text-align: center;
+
+  }
+  .contacts{
+    list-style: none;
+  }
+  .profile{
+    margin: 0 auto;
+    display: block;
+    background-color: #dfdfdf75;
+  }
+  .science{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 705px) {
+    main {
+      flex-direction: row;
+    }
+    main > section, 
+    main > aside {
+      flex: 0 0 20vw;
+    } 
+    
+    
+  }
+  
+
+
