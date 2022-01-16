@@ -12,7 +12,8 @@ body{
     font-size: 20px;
     line-height: 40px;
     min-height: 100vh;
-    margin: 0; padding: 0;
+    margin: 0 auto; 
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,9 +29,13 @@ h1, h2, h3, h4, h5, h6{
     font-size: 40px;
     line-height: 80px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0 20px;
 }
 .header-container{
@@ -46,7 +51,7 @@ nav{
 .nav-link{
     padding: 0 20px;
     line-height: 50px;
-    transition: .3s;
+    transition: 1.5s;
     text-decoration: none;
     color: white;
     font-weight: 400;
@@ -60,7 +65,7 @@ nav{
 }
 .hero{
     max-width: 500px;
-    margin: 250px auto 330px 80px;
+    margin: 250px auto 250px 80px;
 }
 .hero-title{
     font-size: 60px;
@@ -78,6 +83,7 @@ nav{
     border: 0;
     cursor: pointer;
     font-family: inherit;
+    margin-left: 20px;
 }
 .btn:hover{
     color: white;
@@ -99,7 +105,6 @@ nav{
 .skill-items{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .skill-item{
     max-width: 320px;
@@ -121,10 +126,9 @@ nav{
 .title{
     width: 50%;
     text-align: center;
-    margin: 0 auto;
+    margin: 50px auto;
     overflow-x: hidden;
     position: relative;
-
 }
 h2{
     font-family: Merriweather;
@@ -137,6 +141,7 @@ h2{
     display: inline-block;
     vertical-align: middle;
     padding: 20px;
+    
 }
 .title:before,
 .title:after {
@@ -167,7 +172,7 @@ h2{
     cursor: pointer;
     background-color: black;
     color: #BDAE82;
-    margin: 5px;
+    margin: 0 5px 50px 5px;
     font-family: Inter;
     font-size: 20px;
     line-height: 40px;
@@ -196,7 +201,132 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.video-img{
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
 .btn2{
+    background-color: transparent;
+    position: absolute;
+    border: 0;
+}
+.btn2:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+.price-items{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+}
+.price-item{
+    text-align: center;
+    border: 3px solid #BDAE82;
+    max-width: 450px;
+    width: 100%;
+    padding: 43px;
+    margin: 5px;
+}
+.price-item__title{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+    color: white;
+}
+.price-sum{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    color:#BDAE82;
+    padding: 20px;
+}
+.price-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    max-width: 364px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.contacts{
+    max-height: 700px;
+    background: url(assets/img/contacts.jpg);
+    background-size: auto 700px;
+    background-position: center center;
+    max-width: 1440px;
+    height: 700px;
+    margin-top: 100px;
+    position: relative;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+.footer-data{
+    display: flex;
+    justify-content: space-around;
+    max-width: 182px;
+    width: 100%;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+    max-width: 188px;
+    width: 100%;
+    list-style-type: none;
+}
+.footer-icon__img:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+::placeholder {
+    font-family: inherit;
+    color: #bdae82;
+    font-size: 20px;
+    padding: 10px;
+}
+.form-item{
+    background: transparent;
+    border: 3px solid #BDAE82;
+    max-width: 450px;
+    max-height: 50px;
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+}
+.form-item2{
+    max-height: 100px;
+    height: 100px;
+}
+.contacts-wrap{
+    position: absolute;
+    max-width: 450px;
+    width: 100%;
+    height: 80px;
+    left: calc(100% - 500px);
+    top: 60px;
     
 }
-
+.btn-font{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+}
